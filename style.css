@@ -10,17 +10,18 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding:0 5%;
 }
 .half-width img{
     width: 70%;
 
 }
 .text{
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 .hireMe-button{
     text-decoration: none;
@@ -33,4 +34,9 @@ section{
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
