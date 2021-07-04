@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+
+}
+.text{
+    margin-top: 60px;
+}
+.hireMe-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
